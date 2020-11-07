@@ -1,0 +1,95 @@
+ @import url(https://fonts.googleapis.com/css?family=Hind);
+
+        html, body { font-family: "Hind";
+        padding: 2.5em;
+          margin: 10px;
+        }
+
+        #top-title {
+        font-family: fantasy;
+        text-align: left;
+        float: left;
+        width: 70%;
+        font-size: 100pt;
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        height: 350pt;
+        line-height: 1.3em;
+        }
+
+        #sub-title {
+          line-height: 1.3em;
+          font-family: serif;
+          font-size: 15px;
+          float: left;
+          text-align: justify;
+          margin-top: -190px;
+          width: 52%;
+          font-weight: 500;
+          padding: 0px;
+          margin-left: 6.5em;
+          height: calc(90vh - 85pt);
+        }
+
+      #first-letter {
+        line-height: 0.7em;
+        letter-spacing: normal;
+        font-family: serif;
+        font-size: 60px;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: none;
+        float: left;
+        margin-bottom: -0.1em;
+        padding: 0 0.05em 0 0;
+
+      }
+      #right-side {
+        font-family: serif;
+        float: right;
+        text-align: justify;
+        width: 30%;
+        background-color: white;
+        padding:0px;
+        margin: 0px;
+        font-size: 11px;
+        height: calc(100vh - 190pt);
+      }
+
+        hr.solid {
+          border-top: 1px solid #000;
+          border-width: 1px;
+        }
+
+        #bold {
+          font-size: 20px;
+          font-weight: 500;
+        }
+
+      #bottom-left {
+        float: left;
+        width: 35%;
+        font-weight: 500;
+        font-size: 11px;
+        text-align: justify;
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        height: calc(100vh - 190pt);
+      }
+      #bottom-right {
+        float: left;
+        width: 35%;
+        font-weight: 500;
+        font-size: 11px;
+        background-color: aliceblue;
+        text-align: justify;
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+        height: calc(100vh - 190pt);
+      }
+
+div p {padding: 0.6em; margin: 5px;}
+div footer { font-weight: 600;}
